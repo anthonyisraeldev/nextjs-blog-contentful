@@ -6,7 +6,7 @@ export async function GET() {
   revalidatePath("/", "layout");
   try {
     const entries = await fetchEntries("blog");
-    return NextResponse.json({ revalidate: true, now: Date.now() }, entries);
+    return NextResponse.json(entries);
   } catch (error) {
     console.log(error);
     return NextResponse.json(
