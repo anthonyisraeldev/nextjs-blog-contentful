@@ -6,7 +6,7 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 export const GetContentfulPosts = () => {
   const { data, error } = useSWR("/api/contentful-entries", fetcher, {
-    refreshInterval: 5000,
+    refreshInterval: 1000,
   });
 
   // export const GetContentfulPosts = () => {
