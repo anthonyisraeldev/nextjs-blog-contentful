@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
           <li>
             <Button variant="ghost">
-              <Link href="/categories">Categorias!</Link>
+              <Link href="/categories">Categorias</Link>
             </Button>
             {/* Categorias */}
             {/* <DropdownCategorias categorias={categoriasUnicas} /> */}
@@ -65,7 +65,10 @@ const Navbar = () => {
             </Button>
           </li>
           <li>
-            Categorias
+            {/* Categorias */}
+            <Button variant="ghost">
+              <Link href="/categories">Categorias</Link>
+            </Button>
             {/* <DropdownCategorias categorias={categoriasUnicas} /> */}
           </li>
           <li>
