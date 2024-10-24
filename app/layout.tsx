@@ -4,9 +4,9 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
 
-export const dynamic = "auto",
-  fetchCache = "auto",
-  revalidate = 10;
+// export const dynamic = "auto",
+//   fetchCache = "auto",
+//   revalidate = 10;
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
