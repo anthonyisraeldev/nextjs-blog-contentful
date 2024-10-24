@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
           <li>
             <Button variant="ghost">
-              <Link href="/categories">Categorias</Link>
+              <Link href="/categories">Categorias!</Link>
             </Button>
             {/* Categorias */}
             {/* <DropdownCategorias categorias={categoriasUnicas} /> */}
